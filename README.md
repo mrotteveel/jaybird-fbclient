@@ -1,6 +1,8 @@
 Firebird Native Client Distribution for Jaybird
 ===============================================
 
+[![MavenCentral](https://maven-badges.herokuapp.com/maven-central/org.firebirdsql.jdbc/fbclient/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.firebirdsql.jdbc/fbclient/)
+
 Bundle of Firebird native client libraries for use with Jaybird 3 and higher.
 
 This bundle packages `fbclient.dll`/`libfbclient.so` for the Windows and Linux
@@ -34,8 +36,7 @@ Jaybird:
 </dependencies>
 ```
 
-When connecting, you can now use the native protocol without having fbclient on
-your classpath:
+You can now use the native protocol without having fbclient on the library path:
 
 ```java
 public class Example {
@@ -49,6 +50,13 @@ public class Example {
     }
 }
 ```
+
+Download
+--------
+
+Version 3.0.4.0
+
+[fbclient-3.0.4.0.jar](https://repo1.maven.org/maven2/org/firebirdsql/jdbc/fbclient/3.0.4.0/)
 
 Build information
 -----------------
