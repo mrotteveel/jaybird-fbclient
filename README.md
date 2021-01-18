@@ -7,14 +7,14 @@ Bundle of [Firebird](https://www.firebirdsql.org/) native client libraries for
 use with Jaybird 3 and higher.
 
 This bundle packages `fbclient.dll`/`libfbclient.so` for the Windows and Linux
-platforms (32 and 64 bit), and can be used with [Jaybird](https://github.com/FirebirdSQL/jaybird)
+platforms (32 and 64-bit), and can be used with [Jaybird](https://github.com/FirebirdSQL/jaybird)
 for the `native` and `local` protocols. It does not support `embedded` protocol.
 
 Usage
 -----
 
-To use this bundle, you need to depend on this library and your preferred 
-Jaybird 3 (or higher) version and the JNA version required by that version of 
+To use this bundle, you need to depend on this library, your preferred 
+Jaybird 3 (or higher) version, and the JNA version required by that version of 
 Jaybird:
 
 ```xml
@@ -22,12 +22,12 @@ Jaybird:
     <dependency>
         <groupId>org.firebirdsql.jdbc</groupId>
         <artifactId>fbclient</artifactId>
-        <version>3.0.6.0</version>
+        <version>3.0.7.0</version>
     </dependency>
     <dependency>
         <groupId>org.firebirdsql.jdbc</groupId>
-        <artifactId>jaybird-jdk18</artifactId>
-        <version>4.0.0</version>
+        <artifactId>jaybird</artifactId>
+        <version>4.0.2.java8</version>
     </dependency>
     <dependency>
         <groupId>net.java.dev.jna</groupId>
