@@ -55,9 +55,9 @@ public class Example {
 Download
 --------
 
-Version 3.0.7.0
+Version 3.0.8.0
 
-[fbclient-3.0.7.0.jar](https://repo1.maven.org/maven2/org/firebirdsql/jdbc/fbclient/3.0.7.0/)
+[fbclient-3.0.8.0.jar](https://repo1.maven.org/maven2/org/firebirdsql/jdbc/fbclient/3.0.8.0/)
 
 Build information
 -----------------
