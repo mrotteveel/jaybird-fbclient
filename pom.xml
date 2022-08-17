@@ -6,7 +6,7 @@
 
     <groupId>org.firebirdsql.jdbc</groupId>
     <artifactId>fbclient</artifactId>
-    <version>4.0.0.0</version>
+    <version>4.0.2.0</version>
     <packaging>jar</packaging>
     <name>Firebird Native Client Distribution for Jaybird</name>
     <description>Firebird native client libraries packaged for use with Jaybird 3 and higher</description>
