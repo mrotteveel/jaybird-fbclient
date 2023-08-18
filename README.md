@@ -8,7 +8,8 @@ use with Jaybird 3 and higher.
 
 This bundle packages `fbclient.dll`/`libfbclient.so` for the Windows and Linux
 platforms (32 and 64-bit), and can be used with [Jaybird](https://github.com/FirebirdSQL/jaybird)
-for the `native` and `local` protocols. It does not support `embedded` protocol.
+for the `native` and `local` protocols. It does not support the `embedded`
+protocol.
 
 Usage
 -----
@@ -22,17 +23,17 @@ Jaybird:
     <dependency>
         <groupId>org.firebirdsql.jdbc</groupId>
         <artifactId>fbclient</artifactId>
-        <version>3.0.10.0</version>
+        <version>3.0.11.0</version>
     </dependency>
     <dependency>
         <groupId>org.firebirdsql.jdbc</groupId>
         <artifactId>jaybird</artifactId>
-        <version>4.0.6.java8</version>
+        <version>5.0.2.java11</version>
     </dependency>
     <dependency>
         <groupId>net.java.dev.jna</groupId>
         <artifactId>jna</artifactId>
-        <version>5.5.0</version>
+        <version>5.12.1</version>
     </dependency>
 </dependencies>
 ```
@@ -43,7 +44,7 @@ You can now use the native protocol without having fbclient on the library path:
 public class Example {
     public static void main(String[] args) {
         try (Connection connection = DriverManager.getConnection(
-                "jdbc:firebirdsql:native:localhost:employee", "user", "password")) {
+                "jdbc:firebird:native:localhost:employee", "user", "password")) {
             // use connection
         } catch (SQLException e) {
             e.printStackTrace();
@@ -55,9 +56,9 @@ public class Example {
 Download
 --------
 
-Version 3.0.10.0
+Version 3.0.11.0
 
-[fbclient-3.0.10.0.jar](https://repo1.maven.org/maven2/org/firebirdsql/jdbc/fbclient/3.0.10.0/)
+[fbclient-3.0.11.0.jar](https://repo1.maven.org/maven2/org/firebirdsql/jdbc/fbclient/3.0.11.0/)
 
 Build information
 -----------------
@@ -65,6 +66,6 @@ Build information
 ### Version ###
 
 The version has 4 components. The first three are the Firebird version that
-sourced the libraries (eg 3.0.4). The last part is a 'build' identifier, which
+sourced the libraries (e.g. 3.0.4). The last part is a 'build' identifier, which
 should usually be 0. The 'build' identifier may be incremented for patches or
 new platforms added. 
