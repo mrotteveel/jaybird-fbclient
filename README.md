@@ -7,7 +7,7 @@ Bundle of [Firebird](https://www.firebirdsql.org/) native client libraries for
 use with Jaybird 3 and higher.
 
 This bundle packages `fbclient.dll`/`libfbclient.so` for the Windows and Linux
-platforms (32 and 64-bit), and can be used with [Jaybird](https://github.com/FirebirdSQL/jaybird)
+platforms (x86 32- and 64-bit), and can be used with [Jaybird](https://github.com/FirebirdSQL/jaybird)
 for the `native` and `local` protocols. It does not support the `embedded` 
 protocol.
 
