@@ -58,7 +58,7 @@ public class Example {
 }
 ```
 
-### OS-specific OS packages
+### OS-specific packages
 
 Since version 5.0.1.1, it is possible to only download libraries for a specific
 OS and, optionally, architecture. If you add a `classifier` to the Maven
