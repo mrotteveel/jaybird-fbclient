@@ -67,17 +67,17 @@ or only the library for the specified OS and architecture.
 
 The available classifiers are:
 
-* darwin (macOS)
-  * darwin-aarch64
-  * darwin-x86
-* linux (Linux)
-  * linux-aarch64
-  * linux-arm
-  * linux-x86
-  * linux-x86-64
-* win32 (Windows)
-  * win32-x86
-  * win32-x86-64
+* `darwin` (macOS)
+  * `darwin-aarch64`
+  * `darwin-x86`
+* `linux` (Linux)
+  * `linux-aarch64`
+  * `linux-arm`
+  * `linux-x86`
+  * `linux-x86-64`
+* `win32` (Windows)
+  * `win32-x86`
+  * `win32-x86-64`
 
 The names of the classifiers are the technical names used by JNA (Java Native 
 Access) for identifying libraries for a specific platform.
