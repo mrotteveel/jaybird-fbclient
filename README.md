@@ -6,10 +6,15 @@ Firebird Native Client Distribution for Jaybird
 Bundle of [Firebird](https://www.firebirdsql.org/) native client libraries for
 use with Jaybird 3 and higher.
 
-This bundle packages `fbclient.dll`/`libfbclient.so` for the Windows and Linux
-platforms (x86 32- and 64-bit), and can be used with [Jaybird](https://github.com/FirebirdSQL/jaybird)
-for the `native` and `local` protocols. It does not support the `embedded` 
-protocol.
+This bundle packages `fbclient.dll`/`libfbclient.so` for the following 
+platforms:
+
+* Windows (x86, and x86-64)
+* Linux (x86, x86-64, and, since 5.0.1.0, aarch64, and arm)
+* macOS (since 5.0.1.0: x86-64, and aarch64)
+
+It can be used with [Jaybird](https://github.com/FirebirdSQL/jaybird) for 
+the `native` and `local` protocols. It does not support the `embedded` protocol.
 
 Usage
 -----
@@ -23,7 +28,7 @@ Jaybird:
     <dependency>
         <groupId>org.firebirdsql.jdbc</groupId>
         <artifactId>fbclient</artifactId>
-        <version>4.0.5.0</version>
+        <version>5.0.1.0</version>
     </dependency>
     <dependency>
         <groupId>org.firebirdsql.jdbc</groupId>
@@ -55,6 +60,10 @@ public class Example {
 
 Download
 --------
+
+### Version 5.0.1.0 ###
+
+[fbclient-5.0.1.0.jar](https://repo1.maven.org/maven2/org/firebirdsql/jdbc/fbclient/5.0.1.0/)
 
 ### Version 4.0.5.0 ###
 
