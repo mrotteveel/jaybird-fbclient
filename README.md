@@ -28,7 +28,7 @@ Jaybird:
     <dependency>
         <groupId>org.firebirdsql.jdbc</groupId>
         <artifactId>fbclient</artifactId>
-        <version>5.0.1.0</version>
+        <version>5.0.1.1</version>
     </dependency>
     <dependency>
         <groupId>org.firebirdsql.jdbc</groupId>
@@ -58,12 +58,47 @@ public class Example {
 }
 ```
 
+### OS-specific OS packages
+
+Since version 5.0.1.1, it is possible to only download libraries for a specific
+OS and, optionally, architecture. If you add a `classifier` to the Maven
+`dependency`, it will only download the JAR with libraries for that specific OS,
+or only the library for the specified OS and architecture.
+
+The available classifiers are:
+
+* darwin (macOS)
+  * darwin-aarch64
+  * darwin-x86
+* linux (Linux)
+  * linux-aarch64
+  * linux-arm
+  * linux-x86
+  * linux-x86-64
+* win32 (Windows)
+  * win32-x86
+  * win32-x86-64
+
+The names of the classifiers are the technical names used by JNA (Java Native 
+Access) for identifying libraries for a specific platform.
+    
+For example, to only get the Windows 64-bit (x86-64/AMD64) library:
+
+```xml
+<dependency>
+    <groupId>org.firebirdsql.jdbc</groupId>
+    <artifactId>fbclient</artifactId>
+    <version>5.0.1.1</version>
+    <classifier>win32-x86-64</classifier>
+</dependency>
+```
+
 Download
 --------
 
-### Version 5.0.1.0 ###
+### Version 5.0.1.1 ###
 
-[fbclient-5.0.1.0.jar](https://repo1.maven.org/maven2/org/firebirdsql/jdbc/fbclient/5.0.1.0/)
+[fbclient-5.0.1.1.jar](https://repo1.maven.org/maven2/org/firebirdsql/jdbc/fbclient/5.0.1.1/)
 
 ### Version 4.0.5.0 ###
 
