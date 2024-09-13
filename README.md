@@ -60,9 +60,9 @@ Download
 
 [fbclient-4.0.5.0.jar](https://repo1.maven.org/maven2/org/firebirdsql/jdbc/fbclient/4.0.5.0/)
 
-### Version 3.0.11.0 ###
+### Version 3.0.12.0 ###
 
-[fbclient-3.0.11.0.jar](https://repo1.maven.org/maven2/org/firebirdsql/jdbc/fbclient/3.0.11.0/)
+[fbclient-3.0.12.0.jar](https://repo1.maven.org/maven2/org/firebirdsql/jdbc/fbclient/3.0.12.0/)
 
 Build information
 -----------------
@@ -70,6 +70,6 @@ Build information
 ### Version ###
 
 The version has 4 components. The first three are the Firebird version that
-sourced the libraries (eg 3.0.4). The last part is a 'build' identifier, which
+sourced the libraries (e.g. 3.0.4). The last part is a 'build' identifier, which
 should usually be 0. The 'build' identifier may be incremented for patches or
 new platforms added. 
