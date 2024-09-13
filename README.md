@@ -23,17 +23,17 @@ Jaybird:
     <dependency>
         <groupId>org.firebirdsql.jdbc</groupId>
         <artifactId>fbclient</artifactId>
-        <version>4.0.4.0</version>
+        <version>4.0.5.0</version>
     </dependency>
     <dependency>
         <groupId>org.firebirdsql.jdbc</groupId>
         <artifactId>jaybird</artifactId>
-        <version>5.0.3.java11</version>
+        <version>5.0.5.java11</version>
     </dependency>
     <dependency>
         <groupId>net.java.dev.jna</groupId>
         <artifactId>jna</artifactId>
-        <version>5.12.1</version>
+        <version>5.14.0</version>
     </dependency>
 </dependencies>
 ```
@@ -56,9 +56,9 @@ public class Example {
 Download
 --------
 
-### Version 4.0.4.0 ###
+### Version 4.0.5.0 ###
 
-[fbclient-4.0.4.0.jar](https://repo1.maven.org/maven2/org/firebirdsql/jdbc/fbclient/4.0.4.0/)
+[fbclient-4.0.5.0.jar](https://repo1.maven.org/maven2/org/firebirdsql/jdbc/fbclient/4.0.5.0/)
 
 ### Version 3.0.11.0 ###
 
