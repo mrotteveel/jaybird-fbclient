@@ -28,17 +28,17 @@ Jaybird:
     <dependency>
         <groupId>org.firebirdsql.jdbc</groupId>
         <artifactId>fbclient</artifactId>
-        <version>5.0.1.1</version>
+        <version>5.0.2.0</version>
     </dependency>
     <dependency>
         <groupId>org.firebirdsql.jdbc</groupId>
         <artifactId>jaybird</artifactId>
-        <version>5.0.5.java11</version>
+        <version>6.0.1</version>
     </dependency>
     <dependency>
-        <groupId>net.java.dev.jna</groupId>
-        <artifactId>jna</artifactId>
-        <version>5.14.0</version>
+      <groupId>org.firebirdsql.jdbc</groupId>
+      <artifactId>jaybird-native</artifactId>
+      <version>6.0.1</version>
     </dependency>
 </dependencies>
 ```
@@ -96,9 +96,9 @@ For example, to only get the Windows 64-bit (x86-64/AMD64) library:
 Download
 --------
 
-### Version 5.0.1.1 ###
+### Version 5.0.2.0 ###
 
-[fbclient-5.0.1.1.jar](https://repo1.maven.org/maven2/org/firebirdsql/jdbc/fbclient/5.0.1.1/)
+[fbclient-5.0.2.0.jar](https://repo1.maven.org/maven2/org/firebirdsql/jdbc/fbclient/5.0.2.0/)
 
 ### Version 4.0.5.0 ###
 
