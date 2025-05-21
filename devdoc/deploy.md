@@ -36,5 +36,5 @@ of the `org.firebirdsql.jdbc:fbclient` version for that Firebird version.
 
 This requires the proper Sonatype credentials to be set in userhome/.m2/settings.xml.
 
-See https://central.sonatype.org/pages/apache-maven.html for details.
+See https://central.sonatype.org/publish/publish-portal-maven/ for details.
  
