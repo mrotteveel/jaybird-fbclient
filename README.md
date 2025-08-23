@@ -104,9 +104,15 @@ Download
 
 ### Version 4.0.5.0 ###
 
+*Note*: Newer 4.0.x clients will only be published on request. Please create
+an issue if you need it.
+
 [fbclient-4.0.5.0.jar](https://repo1.maven.org/maven2/org/firebirdsql/jdbc/fbclient/4.0.5.0/)
 
 ### Version 3.0.12.0 ###
+
+*Note*: Newer 3.0.x clients will only be published on request. Please create
+an issue if you need it.
 
 [fbclient-3.0.12.0.jar](https://repo1.maven.org/maven2/org/firebirdsql/jdbc/fbclient/3.0.12.0/)
 
