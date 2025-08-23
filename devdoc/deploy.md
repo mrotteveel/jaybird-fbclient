@@ -3,6 +3,7 @@ Deploying
 
 1. Download the latest version of libfbclient.so / fbclient.dll for the various
 platforms, and replace the files under `src/main/resources`
+
 2. Update the artifact version with
 
    ```
@@ -11,6 +12,7 @@ platforms, and replace the files under `src/main/resources`
    
    Where the first 3 digits are the Firebird version, and the fourth the release
 of the `org.firebirdsql.jdbc:fbclient` version for that Firebird version.
+
 3. Commit all changes and create a signed tag using
 
     ```
@@ -28,13 +30,15 @@ of the `org.firebirdsql.jdbc:fbclient` version for that Firebird version.
     mvn clean deploy -P release
     ```
     
-    For snapshots we can forego signing and generating javadoc + sources using:
+    For snapshots, we can forego signing and generating javadoc + sources using:
     
     ```
     mvn clean deploy
     ```
+   
+6. Go to <https://central.sonatype.com/publishing/deployments> and click "Publish".
 
 This requires the proper Sonatype credentials to be set in userhome/.m2/settings.xml.
 
-See https://central.sonatype.org/publish/publish-portal-maven/ for details.
+See <https://central.sonatype.org/publish/publish-portal-maven/> for details.
  
