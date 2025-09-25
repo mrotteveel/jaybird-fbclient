@@ -1,7 +1,7 @@
 Firebird Native Client Distribution for Jaybird
 ===============================================
 
-[![MavenCentral](https://maven-badges.herokuapp.com/maven-central/org.firebirdsql.jdbc/fbclient/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.firebirdsql.jdbc/fbclient/)
+[![MavenCentral](https://maven-badges.sml.io/sonatype-central/org.firebirdsql.jdbc/fbclient/badge.svg)](https://maven-badges.sml.io/sonatype-central/org.firebirdsql.jdbc/fbclient/)
 
 Bundle of [Firebird](https://www.firebirdsql.org/) native client libraries for
 use with Jaybird 3 and higher.
