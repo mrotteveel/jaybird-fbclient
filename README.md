@@ -23,24 +23,24 @@ To use this bundle, you need to depend on this library, your preferred
 Jaybird 3 (or higher) version, and the JNA version required by that version of 
 Jaybird.
 
-For example, for Jaybird 6.0.3:
+For example, for Jaybird 6.0.5:
 
 ```xml
 <dependencies>
     <dependency>
         <groupId>org.firebirdsql.jdbc</groupId>
         <artifactId>fbclient</artifactId>
-        <version>5.0.3.0</version>
+        <version>5.0.4.0</version>
     </dependency>
     <dependency>
         <groupId>org.firebirdsql.jdbc</groupId>
         <artifactId>jaybird</artifactId>
-        <version>6.0.3</version>
+        <version>6.0.5</version>
     </dependency>
     <dependency>
       <groupId>org.firebirdsql.jdbc</groupId>
       <artifactId>jaybird-native</artifactId>
-      <version>6.0.3</version>
+      <version>6.0.5</version>
     </dependency>
 </dependencies>
 ```
@@ -90,7 +90,7 @@ For example, to only get the Windows 64-bit (x86-64/AMD64) library:
 <dependency>
     <groupId>org.firebirdsql.jdbc</groupId>
     <artifactId>fbclient</artifactId>
-    <version>5.0.1.1</version>
+    <version>5.0.4.0</version>
     <classifier>win32-x86-64</classifier>
 </dependency>
 ```
@@ -98,9 +98,9 @@ For example, to only get the Windows 64-bit (x86-64/AMD64) library:
 Download
 --------
 
-### Version 5.0.3.0 ###
+### Version 5.0.5.0 ###
 
-[fbclient-5.0.3.0.jar](https://repo1.maven.org/maven2/org/firebirdsql/jdbc/fbclient/5.0.3.0/)
+[fbclient-5.0.4.0.jar](https://repo1.maven.org/maven2/org/firebirdsql/jdbc/fbclient/5.0.4.0/)
 
 ### Version 4.0.5.0 ###
 
