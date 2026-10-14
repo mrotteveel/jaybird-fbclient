@@ -14,7 +14,7 @@ platforms:
 * macOS (since 5.0.1.0: x86-64, and aarch64)
 
 It can be used with [Jaybird](https://github.com/FirebirdSQL/jaybird) for 
-the `native` and `local` protocols. It does not support the `embedded` protocol.
+the `native` protocol. It does not support the `embedded` protocol.
 
 Usage
 -----
