@@ -23,7 +23,7 @@ To use this bundle, you need to depend on this library, your preferred
 Jaybird 3 (or higher) version, and the JNA version required by that version of 
 Jaybird.
 
-For example, for Jaybird 6.0.5:
+For example, for Jaybird 6.0.7:
 
 ```xml
 <dependencies>
@@ -35,12 +35,12 @@ For example, for Jaybird 6.0.5:
     <dependency>
         <groupId>org.firebirdsql.jdbc</groupId>
         <artifactId>jaybird</artifactId>
-        <version>6.0.5</version>
+        <version>6.0.7</version>
     </dependency>
     <dependency>
       <groupId>org.firebirdsql.jdbc</groupId>
       <artifactId>jaybird-native</artifactId>
-      <version>6.0.5</version>
+      <version>6.0.7</version>
     </dependency>
 </dependencies>
 ```
@@ -98,21 +98,21 @@ For example, to only get the Windows 64-bit (x86-64/AMD64) library:
 Download
 --------
 
-### Version 5.0.5.0 ###
+### Version 5.0.4.0 ###
 
 [fbclient-5.0.4.0.jar](https://repo1.maven.org/maven2/org/firebirdsql/jdbc/fbclient/5.0.4.0/)
 
 ### Version 4.0.5.0 ###
 
 *Note*: Newer 4.0.x clients will only be published on request. Please create
-an issue if you need it.
+an [issue](https://github.com/mrotteveel/jaybird-fbclient/issues) if you need it.
 
 [fbclient-4.0.5.0.jar](https://repo1.maven.org/maven2/org/firebirdsql/jdbc/fbclient/4.0.5.0/)
 
 ### Version 3.0.12.0 ###
 
 *Note*: Newer 3.0.x clients will only be published on request. Please create
-an issue if you need it.
+an [issue](https://github.com/mrotteveel/jaybird-fbclient/issues) if you need it.
 
 [fbclient-3.0.12.0.jar](https://repo1.maven.org/maven2/org/firebirdsql/jdbc/fbclient/3.0.12.0/)
 
